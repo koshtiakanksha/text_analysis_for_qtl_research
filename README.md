@@ -20,7 +20,7 @@ This project analyzes text from QTL-related research papers to extract important
    ```bash
    pip install -r requirements.txt
    ```
-3. # Run Jupyter Notebook
+3. Run Jupyter Notebook
    ```bash
    jupyter notebook Project_1_akoshti.ipynb
    ```
