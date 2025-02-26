@@ -13,8 +13,8 @@ This project analyzes text from QTL-related research papers to extract important
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone <repo_link>
-   cd <repo_folder>
+   git clone https://github.com/koshtiakanksha/text_analysis_for_qtl_research.git
+   cd text_analysis_for_qtl_research
    ```
 2. Install dependencies:
    ```bash
