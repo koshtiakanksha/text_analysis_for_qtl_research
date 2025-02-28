@@ -66,6 +66,7 @@ This project analyzes text from QTL-related research papers to extract important
 
 ### **Graph Summary:**
 
+![graph](graph.png)
 - The graph below shows exact matches across different n-grams.
 - A sharp increase in matches occurs from unigrams to bigrams and trigrams.
 - After trigrams, the increase plateaus, confirming that using fourgrams and beyond provides minimal additional benefit.
