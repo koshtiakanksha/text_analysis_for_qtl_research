@@ -14,6 +14,26 @@ This project analyzes text from QTL-related research papers to extract important
 - **Performs exact string matching** to evaluate the presence of extracted terms in the trait dictionary.
 - **Visualizes exact match trends** across different n-grams.
 
+# Project 2: QTL Paper Classification (Logistic Regression + BERT)
+## Overview
+This project automates the classification of research papers into:
+
+1 → Relevant for QTLdb curation
+
+0 → Not relevant
+
+It combines traditional machine learning (TF-IDF + Logistic Regression) with a fine-tuned BERT model using an ensemble approach for optimal results.
+
+## Features
+* Cleans and balances the input dataset.
+* Trains two independent models:
+   * Logistic Regression (TF-IDF)
+   * BERT (fine-tuned transformer)
+* Uses class weights to handle imbalance during BERT training.
+* Applies threshold optimization for best F1 score on validation set.
+* Combines predictions via soft-voting ensemble.
+* Generates final predictions for Kaggle competition.
+
 ## Installation
 
 1. Clone this repository:
